@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.scss","style.css"],"names":[],"mappings":"AAAA;EACE,wBAAA;EACA,eAAA;ACCF","file":"style.css","sourcesContent":["body {\r\n  background-color: tomato;\r\n  font-size: 32px;\r\n}","body {\n  background-color: tomato;\n  font-size: 32px;\n}"]}
