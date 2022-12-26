@@ -1,4 +1,6 @@
-body {
-  background-color: tomato;
-  font-size: 32px;
-}
+// Файл с часто используемыми элементами
+@import "./global/mixins.scss"; // миксины
+@import "./global/variables.scss"; // переменные
+@import "./global/base.scss"; // глобальные стили
+
+// Блоки
