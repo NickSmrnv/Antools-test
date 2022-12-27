@@ -10,6 +10,7 @@
 }
 
 .hero__title {
+  font-weight: 500;
   font-size: 50px;
   line-height: 70px;
   color: rgba(255, 255, 255, 0.9);
@@ -28,6 +29,10 @@
   color: rgba(255, 255, 255, 0.55);
   padding-right: 100px;
   margin-bottom: 60px;
+}
+
+.hero__search {
+  margin-right: 100px;
 }
 
 .hero__content {
