@@ -64,8 +64,8 @@
           <div class="hero__search">
             <h2 class="visually-hidden">Find tools</h2>
             <form class="hero__form form">
-              <input class="form__input" type="text" name="text" placeholder="find more than 430+ tools...">
-              <input class="form__submit button button--orange" type="submit" name="submit" value="Search">
+              <input class="form__input form__input--hero" type="text" name="text" placeholder="find more than 430+ tools...">
+              <input class="form__submit form__submit--hero button button--orange" type="submit" name="submit" value="Search">
             </form>
           </div>
         </div>
@@ -429,6 +429,8 @@
     <section class="teams">
       <h2 class="visually-hidden">Our employees.</h2>
       <div class="teams__wrapper">
+        <button class="teams__button teams__button--prev"></button>
+        <button class="teams__button teams__button--next"></button>
         <div class="teams__employee">
           <img class="teams__photo" src="./img/teams/Ronald-Richards.png" width="399" height="492" alt="Employee photo.">
           <div class="teams__about">
@@ -443,8 +445,11 @@
           Occaecat aute officia excepteur non laboris id qui ad.
         </blockquote>
         </div>
-        <button class="teams__button-prev"></button>
-        <button class="teams__button-next"></button>
+        <ol class="teams__slider">
+          <li class="teams__indicator"></li>
+          <li class="teams__indicator teams__indicator--current"></li>
+          <li class="teams__indicator"></li>
+        </ol>
       </div>
     </section>
 
@@ -479,11 +484,11 @@
             <h3 class="info__title">Contact Us</h3>
             <ul class="info__list">
               <li class="info__item">
-                <a class="info__telephone" href="tel:+621987463">+621987463</a>
+                <a class="info__link" href="tel:+621987463">+621987463</a>
               </li>
               <li class="info__item">M Building, No.10 A</li>
               <li class="info__item">
-                <a class="info__email" href="malito:antools@awesome.com">antools@awesome.com</a>
+                <a class="info__link" href="malito:antools@awesome.com">antools@awesome.com</a>
               </li>
             </ul>
           </li>
