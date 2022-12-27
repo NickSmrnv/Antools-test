@@ -17,13 +17,25 @@
         rgba(255, 255, 255, 0.02),
         rgba(255, 255, 255, 0.02));
 
-    &::before {
+    &:not(.newtools__item)::before {
       position: absolute;
       content: "";
       width: 65px;
       height: 65px;
       top: -6px;
       right: 16px;
+      background: rgba(255, 110, 48, 0.6);
+      border-radius: 50%;
+      filter: blur(45px);
+    }
+
+    &:not(.tools__item)::before {
+      position: absolute;
+      content: "";
+      width: 65px;
+      height: 65px;
+      top: -17px;
+      right: -9px;
       background: rgba(255, 110, 48, 0.6);
       border-radius: 50%;
       filter: blur(45px);
@@ -68,6 +80,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   height: 100%;
 }
 
