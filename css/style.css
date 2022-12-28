@@ -51,7 +51,7 @@ html {
 
 .main-header__item--arrow {
   min-width: 111px;
-  background-image: url("../../img/header/arrow-down.svg");
+  background-image: url("../img/header/arrow-down.svg");
   background-repeat: no-repeat;
   background-position: left 96px center;
 }
@@ -111,7 +111,7 @@ html {
 }
 
 .hero {
-  background-image: url("../../img/hero/Illustration-background.png");
+  background-image: url("../img/hero/Illustration-background.png");
   background-repeat: no-repeat;
   background-position: right;
 }
@@ -217,7 +217,7 @@ html {
   padding-bottom: 22px;
 }
 .form__input--hero {
-  background-image: url("../../img/hero/search-icon.svg");
+  background-image: url("../img/hero/search-icon.svg");
   background-repeat: no-repeat;
   background-position: left 18px center;
   padding-left: 55px;
@@ -660,7 +660,7 @@ html {
   margin-right: 0;
   margin-bottom: 0;
   margin-left: 0;
-  background-image: url("../../img/teams/quotes.svg");
+  background-image: url("../img/teams/quotes.svg");
   background-repeat: no-repeat;
   background-position: 10px 80px;
 }
@@ -718,19 +718,19 @@ html {
   top: 196px;
 }
 .teams__button--prev {
-  background-image: url("../../img/teams/arrow-left.svg");
+  background-image: url("../img/teams/arrow-left.svg");
   left: 0;
 }
 .teams__button--prev:hover {
-  background-image: url("../../img/teams/arrow-orange-left.svg");
+  background-image: url("../img/teams/arrow-orange-left.svg");
 }
 .teams__button--next {
-  background-image: url("../../img/teams/arrow-right.svg");
+  background-image: url("../img/teams/arrow-right.svg");
   top: 196px;
   right: 0;
 }
 .teams__button--next:hover {
-  background-image: url("../../img/teams/arrow-orange-right.svg");
+  background-image: url("../img/teams/arrow-orange-right.svg");
 }
 .teams__button:active {
   box-shadow: 0px 5px 10px -3px #000000;
